@@ -62,8 +62,8 @@ class _MoviesPageState extends State<MoviesPage> {
                                 child: Stack(
                                   children: [
                                     Positioned(
-                                      bottom: 0,
-                                      left: 40,
+                                      bottom: size.height * 0.012,
+                                      left: size.width * 0.1,
                                       child: Container(
                                         height: 180,
                                         width: 185,
@@ -77,7 +77,7 @@ class _MoviesPageState extends State<MoviesPage> {
                                     ),
                                     Positioned(
                                       top: 0,
-                                      right: 20,
+                                      right: size.width * 0.075,
                                       child: Container(
                                         height: 190,
                                         width: 190,
